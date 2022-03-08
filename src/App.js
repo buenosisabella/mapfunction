@@ -7,27 +7,27 @@ class Map extends Component{
     Amigos: [{
       nome: "Ana Beatriz",
       comida:"Estrogonof",
-      profissiçao:"Musico"
+      profissão:"Musico"
     },{
       nome:"Anny",
       comida:"Carne Vermelha",
-      profissiçao:"Professor"
+      profissão:"Professor"
     },{
       nome:"Gabriela",
       comida:"Espedinho de frango",
-      profissiçao:"Advogado"
+      profissão:"Advogado"
     },{
       nome:"Gabrielle",
       comida:"Macarrão",
-      profissiçao:"Desenvolvedor"
+      profissão:"Desenvolvedor"
     },{
       nome:"Marcos",
       comida:"Fricassê",
-      profissiçao:"Pedagogo"
+      profissão:"Pedagogo"
     },{
       nome:"Josiane",
       comida:"Arroz",
-      profissiçao:"Telemarketing"
+      profissão:"Telemarketing"
     }]
   }
 
@@ -39,7 +39,7 @@ class Map extends Component{
             <h1>Hello me chamo {item.nome}</h1>
             <ul>
             <h2>{item.comida}</h2>
-            <p>{item.profissiçao}</p>
+            <p>{item.profissão}</p>
             </ul>
           </div>
         ))}
